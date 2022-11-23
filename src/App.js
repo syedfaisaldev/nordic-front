@@ -25,7 +25,7 @@ function App() {
   const [jobId, setJobId] = useState(0);
   const [toDate, setToDate] = useState("Select To Date");
   const [fromDate, setFromDate] = useState("Select From Date");
-  const [hour, setHour] = useState("0");
+  const [hour, setHour] = useState("");
 
   const [customers, setCustomers] = useState([]);
   const [clients, setClients] = useState([]);
